@@ -4,7 +4,7 @@ class objectClass:
     _numberOfinstances =0
     instances_map = dict()
     
-    def __init__(self , typeof , serialNO = 123) :
+    def __init__(self , typeof , serialNO = -1) :
             
             self._typeof = typeof
             self._serialNO = serialNO  
@@ -21,6 +21,8 @@ class objectClass:
     @staticmethod
     def get_total():
         print( 'There is a total of {} pieces in the stock'.format(objectClass._numberOfinstances))
+    
+    
 
     @property
     def typeof(self):
