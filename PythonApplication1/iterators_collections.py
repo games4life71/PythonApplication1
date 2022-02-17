@@ -1,6 +1,5 @@
-
 from itertools import combinations, count, permutations
-
+import collections
 
 class Evens(object):
 
@@ -21,12 +20,9 @@ class Evens(object):
         else : raise StopIteration
 
 
-def generate_evens(limit):
-    value = 0 
-    while(value<=limit):
-        yield value
-        value+=2
 
 
-for i in generate_evens(10):
-    print(i , " " )
+
+
+
+

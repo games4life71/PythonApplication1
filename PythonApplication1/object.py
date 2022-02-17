@@ -23,9 +23,6 @@ class objectClass:
         print( 'There is a total of {} pieces in the stock'.format(objectClass._numberOfinstances))
     
 
-
-    
-
     @property
     def typeof(self):
        return self._typeof
